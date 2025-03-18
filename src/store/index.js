@@ -1,4 +1,4 @@
-import redux from 'redux';
+import * as redux from 'redux';
 
 const counterReducer = (state = { counter: 0 }, action) => {
     if (action.type === 'INCREMENT') {
